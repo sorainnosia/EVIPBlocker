@@ -48,7 +48,7 @@ On the Setting page, clicking Test tab and click Start will test whether the Win
 ## Advanced Configuration
 EVIPBlocker.exe.config contains configuration of the RDP Port of the server configured in "RDPPort" value="3389" which is port 3389, you can change it by editing the config file via notepad.
 
-If you notice, the NonHTTP and HTTP tab has a checkbox in every connection, sometimes it is checked and sometimes its not. When it is checked, it means that the File Name of the executable that initiates the connection does not contains any of the word "PHargaService "or "CefSharp" which is configured in "HTTPChecked" value="PHargaService|CefSharp" which is separated by pipe (|), this means the configuration configures allowed File Name keywords that will mark connections initiate by non matching File Name with a check on checkbox.
+If you notice, the NonHTTP and HTTP tab has a checkbox in every connection, sometimes it is checked and sometimes its not. When it is checked, it means that the File Name of the executable that initiates the connection does not contains any of the word "PHargaService "or "CefSharp" which is configured in "HTTPChecked" value="PHargaService|CefSharp" which is separated by pipe (|), this means the configuration configures allowed File Name keywords that will mark connections initiate by non matching File Name with a check on checkbox to mark suspicious/unintended connections.
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
