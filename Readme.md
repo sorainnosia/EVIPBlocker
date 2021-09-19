@@ -39,6 +39,7 @@ Any IP address that is blocked will be appended to a file name blocked.txt. When
 The Blocked button display all blocked IP Address, you can click an IP and click Remove to re-allow connection from the IP Address.
 
 <img src="https://user-images.githubusercontent.com/19261780/133919446-5840a3b3-6189-4936-b979-28fe79da179d.png" width="300">
+<img src="https://user-images.githubusercontent.com/19261780/133919577-1dafc4d3-4327-414a-9bcb-c4ff92b4d93b.png" width="300">
 
 The Setting button allows you to see program supported via Event ID which by default support reading of Event ID 18456 for failure attempt of MS SQL logon and Event ID 4625 for failure attempt of RDP logon. If the attempt exceed the set Threshold within a scan period configured in Minutes Scan, the IP address will automatically blocked and display in LOG tab. You can add other Event ID for other failure attempt that is logged down in Event Viewer via the Event ID.
 
