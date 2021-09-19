@@ -26,7 +26,7 @@ The Blocked button display all blocked IP Address, you can click an IP and click
 
 The Setting button allows you to see program supported via Event ID which by default support reading of Event ID 18456 for failure attempt of MS SQL logon and Event ID 4625 for failure attempt of RDP logon. If the attempt exceed the set Threshold within a scan period configured in Minutes Scan, the IP address will automatically blocked and display in LOG tab. You can add other Event ID for other failure attempt that is logged down in Event Viewer via the Event ID.
 
-## Advance Configuration
+## Advanced Configuration
 EVIPBlocker.exe.config contains configuration of the RDP Port of the server configured in "RDPPort" value="3389" which is port 3389, you can change it by editing the config file via notepad.
 
 If you notice, the NonHTTP and HTTP tab has a checkbox in every connection, sometimes it is checked and sometimes its not. When it is checked, it means that the File Name of the executable that initiates the connection does not contains any of the word "PHargaService "or "CefSharp" which is configured in "HTTPChecked" value="PHargaService|CefSharp", this means the configuration configures File Name keywords that will mark other connections initiate by non matching File Name with a check so that operator can quickly identify suspicious connections.
