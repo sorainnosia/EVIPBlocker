@@ -38,7 +38,11 @@ Any IP address that is blocked will be appended to a file name blocked.txt. When
 
 The Blocked button display all blocked IP Address, you can click an IP and click Remove to re-allow connection from the IP Address.
 
+<img src="https://user-images.githubusercontent.com/19261780/133919446-5840a3b3-6189-4936-b979-28fe79da179d.png" width="300">
+
 The Setting button allows you to see program supported via Event ID which by default support reading of Event ID 18456 for failure attempt of MS SQL logon and Event ID 4625 for failure attempt of RDP logon. If the attempt exceed the set Threshold within a scan period configured in Minutes Scan, the IP address will automatically blocked and display in LOG tab. You can add other Event ID for other failure attempt that is logged down in Event Viewer via the Event ID.
+
+On the Setting page, clicking Test tab and click Start will test whether the Windows machine has correct configuration, any text displaying "may not have permission to access them" like above means the Windows is misconfigured causing the program does not have the rights to access Event Viewer logs. The error Event ID 4624 is used by Manual tab, which means the program is unable to perform scanning of successful logon attempt and display it which then user can click to block any successful RDP logon. Other Event ID reports successful reading such as 4625 and 18456, means that the automatic threshold based blocking is working as intended, HTTP and NonHTTP tab is not affected by Event Viewer logs permission.
 
 ## Advanced Configuration
 EVIPBlocker.exe.config contains configuration of the RDP Port of the server configured in "RDPPort" value="3389" which is port 3389, you can change it by editing the config file via notepad.
