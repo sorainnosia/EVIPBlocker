@@ -28,7 +28,7 @@ The HTTP tab display incoming or outgoing connection to port 443/80, similar to 
 
 <img src="https://user-images.githubusercontent.com/19261780/133919275-aa7ac2f9-1444-4a86-a6ba-16017da77921.png" width="300">
 
-When the View button is clicked in each of the connection from different tabs, the details of the connection is shown. It displays the File Name that initiates the connection, the arguments that is passed to it, the source/destination Port number of the connection, and the Windows Service name that initiates file (if available). It allows Kill of the process or Disabled the Windows Service.
+When the View button is clicked in each of the connection from different tabs, the details of the connection is shown. It displays the File Name that initiates the connection, the arguments that is passed to it, the source/destination Port number of the connection, and the Windows Service name that initiates the file (if available). It allows Kill of the process or Disabled of the Windows Service.
 
 
 ## Buttons
