@@ -14,8 +14,10 @@ However please note that some misconfiguration of Windows machine will cause thi
 <img src="https://user-images.githubusercontent.com/19261780/133919229-5c09ec9a-1b4a-4c5e-968a-6069dd27c8a2.png" width="300">
 The LOG tab display current status of logs scanning, and display messages of IP that is blocked (when exist), the condition for blocking is configurable from Setting button that limits attempt of logon failure. The manual tab display successful/unsuccessful login attempt and when necessary user manually click a single IP and select block. 
 
+
 <img src="https://user-images.githubusercontent.com/19261780/133919237-afbb4e12-be88-4c8f-8748-c0d0f5011b18.png" width="300">
 The RDP IN display current active Remote Desktop connection session to the server running the software, user can click a single IP and click block to block any unauthorised session.
+
 
 <img src="https://user-images.githubusercontent.com/19261780/133919253-5e38ca6c-3481-4806-9251-0d416174c87c.png" width="300">
 The NonHTTP tab display any incoming/outgoing connection that is not on port 443/80, the details of the connection can be known by clicking a single IP and click View, it will show the Windows Service, Executable File Path that initiates the connection, it allows Kill of the process and Disable of the Windows Service.
@@ -23,6 +25,7 @@ The HTTP tab display incoming or outgoing connection to port 443/80, similar to 
 
 <img src="https://user-images.githubusercontent.com/19261780/133919275-aa7ac2f9-1444-4a86-a6ba-16017da77921.png" width="300">
 When the View button is clicked in each of the connection from different tabs, the details of the connection is shown. It displays the File Name that initiates the connection, the arguments that is passed to it, the source/destination Port number of the connection, and the Windows Service name that initiates file (if available). It allows Kill of the process or Disabled the Windows Service.
+
 
 ## Buttons
 Start button is clicked when the program runs in order to initiate the first and periodic scanning, the Stop button otherwise stop the scanning.
