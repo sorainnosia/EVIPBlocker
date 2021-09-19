@@ -18,7 +18,7 @@ The RDP IN display current active Remote Desktop connection session to the serve
 The NonHTTP tab display any incoming/outgoing connection that is not on port 443/80, the details of the connection can be known by clicking a single IP and click View, it will show the Windows Service, Executable File Path that initiates the connection, it allows Kill of the process and Disable of the Windows Service. The HTTP tab display incoming or outgoing connection to port 443/80, similar to NonHTTP, the View button show the details of the connection and allow Kill/Disable of the process/service.
 
 ## Buttons
-Start button is clicked when the program runs in order to initiate the first and periodic scanning, the Stop button other stop the scanning.
+Start button is clicked when the program runs in order to initiate the first and periodic scanning, the Stop button otherwise stop the scanning.
 
 Any IP address that is blocked will be appended to a file name blocked.txt. When the file is migrated to a new server the firewall rules are not migrated, but clicking the Confirm button will re-create the Firewall rule based on the blocked.txt file, an already existing rule will not be created again.
 
